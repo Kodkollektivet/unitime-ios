@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="98" id="yN2-vt-Pkt" customClass="CourseCell" customModule="TimeEditLNU" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="379" height="98"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="yN2-vt-Pkt" id="MSy-AS-dG0">
+                <rect key="frame" x="0.0" y="0.0" width="379" height="97.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l4a-b7-p58">
+                        <rect key="frame" x="0.0" y="0.0" width="379" height="98"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="20" maxY="0.0"/>
+                        <state key="normal" image="ThreeDots"/>
+                        <connections>
+                            <action selector="optionsBtnClicked:" destination="yN2-vt-Pkt" eventType="touchUpInside" id="Q5S-Ix-mYI"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1DV016" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Usz-Jx-s5T">
+                        <rect key="frame" x="20" y="12" width="261" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="f3X-Vz-XSI"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="22"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AddIndicator" translatesAutoresizingMaskIntoConstraints="NO" id="nDB-dB-ijF">
+                        <rect key="frame" x="364" y="82.5" width="15" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="15" id="GIC-kw-0wz"/>
+                            <constraint firstAttribute="height" constant="15" id="hrv-Ch-q2f"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T38-5y-fGx">
+                        <rect key="frame" x="20" y="96.5" width="359" height="1"/>
+                        <color key="backgroundColor" red="0.88630175590515137" green="0.88626837730407715" blue="0.88629108667373657" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="s7Y-TV-TGQ"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5O8-n3-W3r">
+                        <rect key="frame" x="20" y="47" width="261" height="39.5"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="T38-5y-fGx" firstAttribute="leading" secondItem="Usz-Jx-s5T" secondAttribute="leading" id="41d-qO-iBU"/>
+                    <constraint firstAttribute="trailing" secondItem="l4a-b7-p58" secondAttribute="trailing" id="5QU-zz-yyh"/>
+                    <constraint firstAttribute="trailing" secondItem="T38-5y-fGx" secondAttribute="trailing" id="8V8-gn-8z6"/>
+                    <constraint firstAttribute="trailing" secondItem="nDB-dB-ijF" secondAttribute="trailing" id="BAp-38-gWU"/>
+                    <constraint firstAttribute="trailing" secondItem="Usz-Jx-s5T" secondAttribute="trailing" constant="98" id="DnD-k3-JMP"/>
+                    <constraint firstItem="Usz-Jx-s5T" firstAttribute="centerY" secondItem="MSy-AS-dG0" secondAttribute="centerY" multiplier="0.5" id="E5m-5S-FaF"/>
+                    <constraint firstItem="5O8-n3-W3r" firstAttribute="leading" secondItem="Usz-Jx-s5T" secondAttribute="leading" id="Evl-4u-Qfu"/>
+                    <constraint firstAttribute="bottom" secondItem="l4a-b7-p58" secondAttribute="bottom" id="HEI-uN-dth"/>
+                    <constraint firstAttribute="bottom" secondItem="T38-5y-fGx" secondAttribute="bottom" id="IN6-kP-B4W"/>
+                    <constraint firstItem="Usz-Jx-s5T" firstAttribute="leading" secondItem="MSy-AS-dG0" secondAttribute="leading" constant="20" id="UnC-W3-cbT"/>
+                    <constraint firstAttribute="bottom" secondItem="nDB-dB-ijF" secondAttribute="bottom" id="l0e-Xi-w4x"/>
+                    <constraint firstItem="l4a-b7-p58" firstAttribute="top" secondItem="MSy-AS-dG0" secondAttribute="top" id="qqw-fb-22f"/>
+                    <constraint firstItem="5O8-n3-W3r" firstAttribute="top" secondItem="Usz-Jx-s5T" secondAttribute="bottom" constant="10" id="tGg-gZ-IEb"/>
+                    <constraint firstItem="l4a-b7-p58" firstAttribute="leading" secondItem="MSy-AS-dG0" secondAttribute="leading" id="u6G-mZ-1D4"/>
+                    <constraint firstItem="5O8-n3-W3r" firstAttribute="trailing" secondItem="Usz-Jx-s5T" secondAttribute="trailing" id="wJW-ew-KPC"/>
+                    <constraint firstItem="T38-5y-fGx" firstAttribute="top" secondItem="5O8-n3-W3r" secondAttribute="bottom" constant="10" id="wtv-Ut-cAP"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="addIndicator" destination="nDB-dB-ijF" id="LwS-zh-Nsh"/>
+                <outlet property="courseNameLabel" destination="Usz-Jx-s5T" id="cHy-N6-Asn"/>
+                <outlet property="courseNoteLabel" destination="5O8-n3-W3r" id="Hbd-vH-Cy2"/>
+                <outlet property="moreButton" destination="l4a-b7-p58" id="sD6-gY-HOq"/>
+            </connections>
+            <point key="canvasLocation" x="35.5" y="86"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="AddIndicator" width="15" height="15"/>
+        <image name="ThreeDots" width="28" height="8"/>
+    </resources>
+</document>

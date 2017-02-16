@@ -1,0 +1,6 @@
+framework module Pods_TimeEditLNU {
+  umbrella header "Pods-TimeEditLNU-umbrella.h"
+
+  export *
+  module * { export * }
+}
