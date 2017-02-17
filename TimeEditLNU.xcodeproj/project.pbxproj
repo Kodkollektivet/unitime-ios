@@ -7,46 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		352F04BB1E27BFCD00AF6BB2 /* EventCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 352F04BA1E27BFCD00AF6BB2 /* EventCell.xib */; };
-		352F04BD1E27BFDA00AF6BB2 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352F04BC1E27BFDA00AF6BB2 /* EventCell.swift */; };
-		3531B2A61E4B5BF00018127E /* CourseDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3531B2A51E4B5BF00018127E /* CourseDetailCell.xib */; };
-		3531B2A81E4B5C1C0018127E /* CourseDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3531B2A71E4B5C1C0018127E /* CourseDetailCell.swift */; };
-		3534C4281E269294001730AB /* LnuNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3534C4271E269294001730AB /* LnuNavController.swift */; };
-		3534F8E01E51D4B5004B78E3 /* DetailLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3534F8DF1E51D4B5004B78E3 /* DetailLabel.swift */; };
-		3534F8E21E51E571004B78E3 /* AddCourseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3534F8E11E51E571004B78E3 /* AddCourseButton.swift */; };
-		3534F8E41E51E89D004B78E3 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3534F8E31E51E89D004B78E3 /* UIImage+Extension.swift */; };
-		3534F8E61E51FBC6004B78E3 /* AddCourseOps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3534F8E51E51FBC6004B78E3 /* AddCourseOps.swift */; };
-		35383FFE1E45E959001AB7AE /* CourseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35383FFD1E45E959001AB7AE /* CourseCell.xib */; };
-		353840001E45E96D001AB7AE /* CourseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35383FFF1E45E96D001AB7AE /* CourseCell.swift */; };
-		353840021E45FC63001AB7AE /* CourseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353840011E45FC63001AB7AE /* CourseModel.swift */; };
-		3547F0E81E561102008ED1B1 /* CornerButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3547F0E71E561102008ED1B1 /* CornerButton.xib */; };
-		3547F0EA1E56214B008ED1B1 /* LoadingAnimView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3547F0E91E56214B008ED1B1 /* LoadingAnimView.swift */; };
-		3548DF7A1E23C42D0035B04F /* CalHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3548DF791E23C42D0035B04F /* CalHeaderView.xib */; };
-		3548DF7C1E23C43E0035B04F /* CalHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3548DF7B1E23C43E0035B04F /* CalHeaderView.swift */; };
-		3548DF801E23E5F20035B04F /* CellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3548DF7F1E23E5F20035B04F /* CellView.xib */; };
-		3548DF821E23E5FD0035B04F /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3548DF811E23E5FD0035B04F /* CellView.swift */; };
-		3548DF841E23F1020035B04F /* AnimationClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3548DF831E23F1020035B04F /* AnimationClass.swift */; };
 		355645021E1175BB003E6E97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355645011E1175BB003E6E97 /* AppDelegate.swift */; };
-		355645061E1175BB003E6E97 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355645051E1175BB003E6E97 /* MainViewController.swift */; };
+		355645041E1175BB003E6E97 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355645031E1175BB003E6E97 /* MasterViewController.swift */; };
+		355645061E1175BB003E6E97 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355645051E1175BB003E6E97 /* DetailViewController.swift */; };
 		355645091E1175BB003E6E97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 355645071E1175BB003E6E97 /* Main.storyboard */; };
 		3556450B1E1175BB003E6E97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3556450A1E1175BB003E6E97 /* Assets.xcassets */; };
 		3556450E1E1175BB003E6E97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3556450C1E1175BB003E6E97 /* LaunchScreen.storyboard */; };
 		355645191E1175BB003E6E97 /* TimeEditLNUTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355645181E1175BB003E6E97 /* TimeEditLNUTests.swift */; };
 		355645241E1175BC003E6E97 /* TimeEditLNUUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355645231E1175BC003E6E97 /* TimeEditLNUUITests.swift */; };
-		35945CF61E3A724300AE4946 /* UINib+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35945CF51E3A724300AE4946 /* UINib+Extension.swift */; };
-		35E74DA01E48C89200CC5ED2 /* LnuLogoAniView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35E74D9F1E48C89200CC5ED2 /* LnuLogoAniView.xib */; };
-		35E74DA41E48CB3500CC5ED2 /* LnuOval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E74DA31E48CB3500CC5ED2 /* LnuOval.swift */; };
-		35E74DA61E48CFEB00CC5ED2 /* LnuBranchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E74DA51E48CFEB00CC5ED2 /* LnuBranchView.swift */; };
-		35E74DA81E48D02400CC5ED2 /* LnuBranch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E74DA71E48D02400CC5ED2 /* LnuBranch.swift */; };
-		35E74DAA1E4A1ECD00CC5ED2 /* LnuLogoAniView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E74DA91E4A1ECD00CC5ED2 /* LnuLogoAniView.swift */; };
-		35E74DAC1E4A3A5F00CC5ED2 /* NSLayoutConstraint+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E74DAB1E4A3A5F00CC5ED2 /* NSLayoutConstraint+Extension.swift */; };
-		35E74DAE1E4A42F300CC5ED2 /* LnuBranchU.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E74DAD1E4A42F300CC5ED2 /* LnuBranchU.swift */; };
-		35E74DB01E4A436D00CC5ED2 /* BranchO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E74DAF1E4A436D00CC5ED2 /* BranchO.swift */; };
-		35EDA0CF1E4248410095A18C /* NetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EDA0CE1E4248410095A18C /* NetworkProvider.swift */; };
-		35EDA0D21E44A7C00095A18C /* EventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EDA0D11E44A7C00095A18C /* EventModel.swift */; };
-		35EDA0D41E44E3470095A18C /* AddCoursesPopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EDA0D31E44E3470095A18C /* AddCoursesPopupVC.swift */; };
-		35EDA0D61E44E3560095A18C /* AddCoursesPopupVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35EDA0D51E44E3560095A18C /* AddCoursesPopupVC.xib */; };
-		D6B6029BD94603CF20ADDE3B /* Pods_TimeEditLNU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A715EA4718722B3EF870991 /* Pods_TimeEditLNU.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,30 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		10E4155B1FA299B413FCD205 /* Pods-TimeEditLNU.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeEditLNU.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TimeEditLNU/Pods-TimeEditLNU.debug.xcconfig"; sourceTree = "<group>"; };
-		18107771EF62206BE68B81A9 /* Pods-TimeEditLNU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeEditLNU.release.xcconfig"; path = "Pods/Target Support Files/Pods-TimeEditLNU/Pods-TimeEditLNU.release.xcconfig"; sourceTree = "<group>"; };
-		352F04BA1E27BFCD00AF6BB2 /* EventCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EventCell.xib; path = Views/EventCell.xib; sourceTree = "<group>"; };
-		352F04BC1E27BFDA00AF6BB2 /* EventCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventCell.swift; path = Views/EventCell.swift; sourceTree = "<group>"; };
-		3531B2A51E4B5BF00018127E /* CourseDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CourseDetailCell.xib; path = Views/CourseDetailCell.xib; sourceTree = "<group>"; };
-		3531B2A71E4B5C1C0018127E /* CourseDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CourseDetailCell.swift; path = Views/CourseDetailCell.swift; sourceTree = "<group>"; };
-		3534C4271E269294001730AB /* LnuNavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LnuNavController.swift; path = Classes/LnuNavController.swift; sourceTree = "<group>"; };
-		3534F8DF1E51D4B5004B78E3 /* DetailLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailLabel.swift; path = Views/DetailLabel.swift; sourceTree = "<group>"; };
-		3534F8E11E51E571004B78E3 /* AddCourseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddCourseButton.swift; path = Views/AddCourseButton.swift; sourceTree = "<group>"; };
-		3534F8E31E51E89D004B78E3 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+Extension.swift"; path = "SupportingFiles/UIImage+Extension.swift"; sourceTree = "<group>"; };
-		3534F8E51E51FBC6004B78E3 /* AddCourseOps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddCourseOps.swift; path = Classes/AddCourseOps.swift; sourceTree = "<group>"; };
-		35383FFD1E45E959001AB7AE /* CourseCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CourseCell.xib; path = Views/CourseCell.xib; sourceTree = "<group>"; };
-		35383FFF1E45E96D001AB7AE /* CourseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CourseCell.swift; path = Views/CourseCell.swift; sourceTree = "<group>"; };
-		353840011E45FC63001AB7AE /* CourseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CourseModel.swift; path = Models/CourseModel.swift; sourceTree = "<group>"; };
-		3547F0E71E561102008ED1B1 /* CornerButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CornerButton.xib; path = Views/CornerButton.xib; sourceTree = "<group>"; };
-		3547F0E91E56214B008ED1B1 /* LoadingAnimView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoadingAnimView.swift; path = Classes/LoadingAnimView.swift; sourceTree = "<group>"; };
-		3548DF791E23C42D0035B04F /* CalHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CalHeaderView.xib; path = Views/CalHeaderView.xib; sourceTree = "<group>"; };
-		3548DF7B1E23C43E0035B04F /* CalHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalHeaderView.swift; path = Views/CalHeaderView.swift; sourceTree = "<group>"; };
-		3548DF7F1E23E5F20035B04F /* CellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CellView.xib; path = Views/CellView.xib; sourceTree = "<group>"; };
-		3548DF811E23E5FD0035B04F /* CellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CellView.swift; path = Views/CellView.swift; sourceTree = "<group>"; };
-		3548DF831E23F1020035B04F /* AnimationClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationClass.swift; sourceTree = "<group>"; };
 		355644FE1E1175BB003E6E97 /* TimeEditLNU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeEditLNU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		355645011E1175BB003E6E97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		355645051E1175BB003E6E97 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		355645031E1175BB003E6E97 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		355645051E1175BB003E6E97 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		355645081E1175BB003E6E97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3556450A1E1175BB003E6E97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3556450D1E1175BB003E6E97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,20 +49,6 @@
 		3556451F1E1175BC003E6E97 /* TimeEditLNUUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeEditLNUUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		355645231E1175BC003E6E97 /* TimeEditLNUUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeEditLNUUITests.swift; sourceTree = "<group>"; };
 		355645251E1175BC003E6E97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		35945CF51E3A724300AE4946 /* UINib+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UINib+Extension.swift"; path = "SupportingFiles/UINib+Extension.swift"; sourceTree = "<group>"; };
-		35E74D9F1E48C89200CC5ED2 /* LnuLogoAniView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LnuLogoAniView.xib; path = Views/LnuLogoAniView.xib; sourceTree = "<group>"; };
-		35E74DA31E48CB3500CC5ED2 /* LnuOval.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LnuOval.swift; path = LnuLogoAnimView/LnuOval.swift; sourceTree = "<group>"; };
-		35E74DA51E48CFEB00CC5ED2 /* LnuBranchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LnuBranchView.swift; path = LnuLogoAnimView/LnuBranchView.swift; sourceTree = "<group>"; };
-		35E74DA71E48D02400CC5ED2 /* LnuBranch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LnuBranch.swift; sourceTree = "<group>"; };
-		35E74DA91E4A1ECD00CC5ED2 /* LnuLogoAniView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LnuLogoAniView.swift; path = LnuLogoAnimView/LnuLogoAniView.swift; sourceTree = "<group>"; };
-		35E74DAB1E4A3A5F00CC5ED2 /* NSLayoutConstraint+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSLayoutConstraint+Extension.swift"; sourceTree = "<group>"; };
-		35E74DAD1E4A42F300CC5ED2 /* LnuBranchU.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LnuBranchU.swift; sourceTree = "<group>"; };
-		35E74DAF1E4A436D00CC5ED2 /* BranchO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BranchO.swift; sourceTree = "<group>"; };
-		35EDA0CE1E4248410095A18C /* NetworkProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkProvider.swift; path = Network/NetworkProvider.swift; sourceTree = "<group>"; };
-		35EDA0D11E44A7C00095A18C /* EventModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventModel.swift; path = Models/EventModel.swift; sourceTree = "<group>"; };
-		35EDA0D31E44E3470095A18C /* AddCoursesPopupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddCoursesPopupVC.swift; path = Controllers/AddCoursesPopupVC.swift; sourceTree = "<group>"; };
-		35EDA0D51E44E3560095A18C /* AddCoursesPopupVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AddCoursesPopupVC.xib; path = Controllers/AddCoursesPopupVC.xib; sourceTree = "<group>"; };
-		6A715EA4718722B3EF870991 /* Pods_TimeEditLNU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimeEditLNU.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +56,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6B6029BD94603CF20ADDE3B /* Pods_TimeEditLNU.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,65 +76,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3548DF731E23BF4E0035B04F /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				355645051E1175BB003E6E97 /* MainViewController.swift */,
-				35EDA0D31E44E3470095A18C /* AddCoursesPopupVC.swift */,
-				35EDA0D51E44E3560095A18C /* AddCoursesPopupVC.xib */,
-			);
-			name = Controllers;
-			sourceTree = "<group>";
-		};
-		3548DF741E23BF5B0035B04F /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				3548DF791E23C42D0035B04F /* CalHeaderView.xib */,
-				3548DF7B1E23C43E0035B04F /* CalHeaderView.swift */,
-				3548DF7F1E23E5F20035B04F /* CellView.xib */,
-				3548DF811E23E5FD0035B04F /* CellView.swift */,
-				352F04BA1E27BFCD00AF6BB2 /* EventCell.xib */,
-				352F04BC1E27BFDA00AF6BB2 /* EventCell.swift */,
-				35383FFD1E45E959001AB7AE /* CourseCell.xib */,
-				35383FFF1E45E96D001AB7AE /* CourseCell.swift */,
-				3531B2A51E4B5BF00018127E /* CourseDetailCell.xib */,
-				3531B2A71E4B5C1C0018127E /* CourseDetailCell.swift */,
-				3534F8DF1E51D4B5004B78E3 /* DetailLabel.swift */,
-				3534F8E11E51E571004B78E3 /* AddCourseButton.swift */,
-				3547F0E71E561102008ED1B1 /* CornerButton.xib */,
-			);
-			name = Views;
-			sourceTree = "<group>";
-		};
-		3548DF751E23BF610035B04F /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				35EDA0CE1E4248410095A18C /* NetworkProvider.swift */,
-			);
-			name = Network;
-			sourceTree = "<group>";
-		};
-		3548DF761E23BF6B0035B04F /* SupportingFiles */ = {
-			isa = PBXGroup;
-			children = (
-				35E74DAB1E4A3A5F00CC5ED2 /* NSLayoutConstraint+Extension.swift */,
-				35945CF51E3A724300AE4946 /* UINib+Extension.swift */,
-				3534F8E31E51E89D004B78E3 /* UIImage+Extension.swift */,
-			);
-			name = SupportingFiles;
-			sourceTree = "<group>";
-		};
-		3548DF781E23BF9B0035B04F /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				3548DF831E23F1020035B04F /* AnimationClass.swift */,
-				3534C4271E269294001730AB /* LnuNavController.swift */,
-				3534F8E51E51FBC6004B78E3 /* AddCourseOps.swift */,
-				3547F0E91E56214B008ED1B1 /* LoadingAnimView.swift */,
-			);
-			name = Classes;
-			sourceTree = "<group>";
-		};
 		355644F51E1175BB003E6E97 = {
 			isa = PBXGroup;
 			children = (
@@ -209,8 +83,6 @@
 				355645171E1175BB003E6E97 /* TimeEditLNUTests */,
 				355645221E1175BC003E6E97 /* TimeEditLNUUITests */,
 				355644FF1E1175BB003E6E97 /* Products */,
-				553DFBD8A33B44F1A56C5151 /* Pods */,
-				A1C2C108467A06989104F324 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -227,14 +99,9 @@
 		355645001E1175BB003E6E97 /* TimeEditLNU */ = {
 			isa = PBXGroup;
 			children = (
-				35E74DA11E48CAC700CC5ED2 /* LnuLogoAnimation */,
-				35EDA0D01E44A7A30095A18C /* Models */,
-				3548DF781E23BF9B0035B04F /* Classes */,
-				3548DF761E23BF6B0035B04F /* SupportingFiles */,
-				3548DF751E23BF610035B04F /* Network */,
-				3548DF741E23BF5B0035B04F /* Views */,
-				3548DF731E23BF4E0035B04F /* Controllers */,
 				355645011E1175BB003E6E97 /* AppDelegate.swift */,
+				355645031E1175BB003E6E97 /* MasterViewController.swift */,
+				355645051E1175BB003E6E97 /* DetailViewController.swift */,
 				355645071E1175BB003E6E97 /* Main.storyboard */,
 				3556450A1E1175BB003E6E97 /* Assets.xcassets */,
 				3556450C1E1175BB003E6E97 /* LaunchScreen.storyboard */,
@@ -261,46 +128,6 @@
 			path = TimeEditLNUUITests;
 			sourceTree = "<group>";
 		};
-		35E74DA11E48CAC700CC5ED2 /* LnuLogoAnimation */ = {
-			isa = PBXGroup;
-			children = (
-				35E74DA71E48D02400CC5ED2 /* LnuBranch.swift */,
-				35E74D9F1E48C89200CC5ED2 /* LnuLogoAniView.xib */,
-				35E74DA91E4A1ECD00CC5ED2 /* LnuLogoAniView.swift */,
-				35E74DAD1E4A42F300CC5ED2 /* LnuBranchU.swift */,
-				35E74DAF1E4A436D00CC5ED2 /* BranchO.swift */,
-				35E74DA31E48CB3500CC5ED2 /* LnuOval.swift */,
-				35E74DA51E48CFEB00CC5ED2 /* LnuBranchView.swift */,
-			);
-			name = LnuLogoAnimation;
-			sourceTree = "<group>";
-		};
-		35EDA0D01E44A7A30095A18C /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				35EDA0D11E44A7C00095A18C /* EventModel.swift */,
-				353840011E45FC63001AB7AE /* CourseModel.swift */,
-			);
-			name = Models;
-			sourceTree = "<group>";
-		};
-		553DFBD8A33B44F1A56C5151 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				10E4155B1FA299B413FCD205 /* Pods-TimeEditLNU.debug.xcconfig */,
-				18107771EF62206BE68B81A9 /* Pods-TimeEditLNU.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		A1C2C108467A06989104F324 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6A715EA4718722B3EF870991 /* Pods_TimeEditLNU.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -308,12 +135,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 355645281E1175BC003E6E97 /* Build configuration list for PBXNativeTarget "TimeEditLNU" */;
 			buildPhases = (
-				5BE924906894364E31DE2B65 /* [CP] Check Pods Manifest.lock */,
 				355644FA1E1175BB003E6E97 /* Sources */,
 				355644FB1E1175BB003E6E97 /* Frameworks */,
 				355644FC1E1175BB003E6E97 /* Resources */,
-				89FDFE767F2C0AFB49359623 /* [CP] Embed Pods Frameworks */,
-				C3EB38609B172A488E090F71 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -414,17 +238,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35383FFE1E45E959001AB7AE /* CourseCell.xib in Resources */,
-				35E74DA01E48C89200CC5ED2 /* LnuLogoAniView.xib in Resources */,
-				3548DF801E23E5F20035B04F /* CellView.xib in Resources */,
 				3556450E1E1175BB003E6E97 /* LaunchScreen.storyboard in Resources */,
 				3556450B1E1175BB003E6E97 /* Assets.xcassets in Resources */,
-				3531B2A61E4B5BF00018127E /* CourseDetailCell.xib in Resources */,
-				35EDA0D61E44E3560095A18C /* AddCoursesPopupVC.xib in Resources */,
-				3548DF7A1E23C42D0035B04F /* CalHeaderView.xib in Resources */,
-				352F04BB1E27BFCD00AF6BB2 /* EventCell.xib in Resources */,
 				355645091E1175BB003E6E97 /* Main.storyboard in Resources */,
-				3547F0E81E561102008ED1B1 /* CornerButton.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,85 +260,14 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		5BE924906894364E31DE2B65 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		89FDFE767F2C0AFB49359623 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TimeEditLNU/Pods-TimeEditLNU-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C3EB38609B172A488E090F71 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TimeEditLNU/Pods-TimeEditLNU-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		355644FA1E1175BB003E6E97 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				353840021E45FC63001AB7AE /* CourseModel.swift in Sources */,
-				353840001E45E96D001AB7AE /* CourseCell.swift in Sources */,
-				355645061E1175BB003E6E97 /* MainViewController.swift in Sources */,
-				3534F8E41E51E89D004B78E3 /* UIImage+Extension.swift in Sources */,
-				35E74DAC1E4A3A5F00CC5ED2 /* NSLayoutConstraint+Extension.swift in Sources */,
-				35E74DA41E48CB3500CC5ED2 /* LnuOval.swift in Sources */,
-				35E74DB01E4A436D00CC5ED2 /* BranchO.swift in Sources */,
-				3548DF821E23E5FD0035B04F /* CellView.swift in Sources */,
-				35EDA0CF1E4248410095A18C /* NetworkProvider.swift in Sources */,
-				3548DF7C1E23C43E0035B04F /* CalHeaderView.swift in Sources */,
-				3534F8E01E51D4B5004B78E3 /* DetailLabel.swift in Sources */,
-				35E74DA81E48D02400CC5ED2 /* LnuBranch.swift in Sources */,
-				3531B2A81E4B5C1C0018127E /* CourseDetailCell.swift in Sources */,
-				3534C4281E269294001730AB /* LnuNavController.swift in Sources */,
-				35E74DAE1E4A42F300CC5ED2 /* LnuBranchU.swift in Sources */,
+				355645061E1175BB003E6E97 /* DetailViewController.swift in Sources */,
+				355645041E1175BB003E6E97 /* MasterViewController.swift in Sources */,
 				355645021E1175BB003E6E97 /* AppDelegate.swift in Sources */,
-				3548DF841E23F1020035B04F /* AnimationClass.swift in Sources */,
-				35E74DAA1E4A1ECD00CC5ED2 /* LnuLogoAniView.swift in Sources */,
-				352F04BD1E27BFDA00AF6BB2 /* EventCell.swift in Sources */,
-				35E74DA61E48CFEB00CC5ED2 /* LnuBranchView.swift in Sources */,
-				35EDA0D21E44A7C00095A18C /* EventModel.swift in Sources */,
-				35945CF61E3A724300AE4946 /* UINib+Extension.swift in Sources */,
-				3547F0EA1E56214B008ED1B1 /* LoadingAnimView.swift in Sources */,
-				35EDA0D41E44E3470095A18C /* AddCoursesPopupVC.swift in Sources */,
-				3534F8E61E51FBC6004B78E3 /* AddCourseOps.swift in Sources */,
-				3534F8E21E51E571004B78E3 /* AddCourseButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -670,7 +415,6 @@
 		};
 		355645291E1175BC003E6E97 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10E4155B1FA299B413FCD205 /* Pods-TimeEditLNU.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EGC7QM6KUW;
@@ -684,7 +428,6 @@
 		};
 		3556452A1E1175BC003E6E97 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18107771EF62206BE68B81A9 /* Pods-TimeEditLNU.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EGC7QM6KUW;
@@ -773,7 +516,6 @@
 				3556452A1E1175BC003E6E97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 		3556452B1E1175BC003E6E97 /* Build configuration list for PBXNativeTarget "TimeEditLNUTests" */ = {
 			isa = XCConfigurationList;
@@ -782,7 +524,6 @@
 				3556452D1E1175BC003E6E97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 		3556452E1E1175BC003E6E97 /* Build configuration list for PBXNativeTarget "TimeEditLNUUITests" */ = {
 			isa = XCConfigurationList;
@@ -791,7 +532,6 @@
 				355645301E1175BC003E6E97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
